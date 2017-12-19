@@ -1,5 +1,6 @@
+$black-purple-color: #2f1946;
+$purple-color: #81398b;
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-
 .start-menu-container {
   background: url("./images/istock.jpg") no-repeat center;
   background-size: cover;
@@ -11,7 +12,7 @@
   flex-direction: row-reverse;
 }
 .mobile-menu__title {
-  color: #2f1946;
+  color: $black-purple-color;
   font-family: Dosis;
   font-size: 18px;
   font-weight: 700;
@@ -32,7 +33,7 @@
   display: flex;
   justify-content: center;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
-  color: #2f1946;
+  color: $black-purple-color;
   font-family: Dosis;
   font-size: 80px;
   font-weight: 700;
@@ -47,14 +48,14 @@
   text-decoration: none;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
-  border: 1px solid #81398b;
+  border: 1px solid $purple-color;
   padding: 11px 12px;
 }
 .get-start__conteiner {
   display: flex;
-  background: #81398b;
+  background: $purple-color;
   border-radius: 42px;
-  padding: 20px 25px;
+  padding: 20px 40px;
 }
 .get-start__conteiner span {
   color: #ffffff;
@@ -103,7 +104,16 @@
   background-position: -542px 0;
   width: 114px;
 }
-
+.social-list {
+  position: fixed;
+  top: 37%;
+  float: right;
+  width: 50px;
+  height: 195px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 0 3px 3px 0;
+  background-color: #45124c;
+}
 
 
 

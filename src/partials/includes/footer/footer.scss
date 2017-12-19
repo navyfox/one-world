@@ -1,3 +1,4 @@
+$black-purple-color: #2f1946;
 .footer-menu {
   height: 70px;
   border-radius: 1px;
@@ -7,7 +8,7 @@
   align-items: center;
 }
 .footer-menu__item {
-  color: #2f1946;
+  color: $black-purple-color;
   font-family: Dosis;
   font-size: 16px;
   font-weight: 700;
@@ -19,7 +20,7 @@
   text-decoration: none;
 }
 .footer-menu__item a:visited {
-  color: #2f1946;
+  color: $black-purple-color;
 }
 .country {
   height: 60px;
@@ -40,7 +41,7 @@
   border-top: 1px solid #d3d3d3;
   text-align: center;
   padding-top: 12px;
-  color: #2f1946;
+  color: $black-purple-color;
   font-family: Lato;
   font-size: 12px;
   font-weight: 400;
