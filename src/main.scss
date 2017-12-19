@@ -1,0 +1,13 @@
+/* normalize */
+@import "partials/layout/normalize";
+
+/* Layout */
+@import "partials/layout/base";
+
+/* Pages */
+@import "pages/index/index";
+
+/* Partials */
+@import "./partials/includes/header/header";
+@import "./partials/includes/footer/footer";
+@import "./partials/includes/join/join";

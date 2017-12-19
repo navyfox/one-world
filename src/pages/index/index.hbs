@@ -1,0 +1,33 @@
+{{#> layout/base }}
+
+{{#*inline "main-block"}}
+<main>
+    <div class="main-welcome" name="registration">
+        <div class="welcome-title">
+            <img src="./images/heart.png">
+            <h2>WELCOME!</h2>
+        </div>
+        <div class="quote">
+            <div class="quote__text">
+                <p>“Love is a promise, love is a souvenir, once given never forgotten, never let it disappear.”</p>
+            </div>
+            <div class="quote__autor">
+                <p>- John Lennon</p>
+            </div>
+        </div>
+        <div class="main-registration">
+            {{> includes/join/join}}
+        </div>
+    </div>
+    <div class="main-join-now"><a class="join-now__link" href="#registration"></a></div>
+    <div class="news">
+        <form class="news__form" method="post" name="news" id="news">
+            <label class="news__title">Sign up for our newsletter</label>
+            <input class="news__input" id="news__email" name="news__email" type="text" placeholder="Email">
+            <input class="news__submit" type="submit" value="Subscribe" form="news">
+        </form>
+    </div>
+</main>
+{{/inline}}
+
+{{/layout/base }}

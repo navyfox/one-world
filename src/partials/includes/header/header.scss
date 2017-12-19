@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+.start-menu-container {
+  background: url("./images/istock.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 220px;
+  max-height: 927px;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.mobile-menu__title {
+  color: #2f1946;
+  font-family: Dosis;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 34px 6px 0px 0px;
+}
+.mobile-menu__icon {
+  background: url(./images/menu.png) no-repeat center center;
+  width: 37px;
+  height: 33px;
+  margin: 27px 66px 0px 0px;
+}
+.start-logo {
+  display: flex;
+  justify-content: center;
+}
+.start-logo__title {
+  display: flex;
+  justify-content: center;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+  color: #2f1946;
+  font-family: Dosis;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.67px;
+}
+.get-start {
+  display: flex;
+  justify-content: center;
+}
+.get-start__link {
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  border: 1px solid #81398b;
+  padding: 11px 12px;
+}
+.get-start__conteiner {
+  display: flex;
+  background: #81398b;
+  border-radius: 42px;
+  padding: 20px 25px;
+}
+.get-start__conteiner span {
+  color: #ffffff;
+  font-family: Dosis;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 12px;
+}
+.get-start__conteiner img {
+}
+.column-stickers {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+.column-sticker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  background-color: #fe4a5d;
+}
+.column-sticker__image {
+  background: url(./images/column-stikers.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  background-position: 0px 0;
+  margin: 65px 0px 65px 0px;
+}
+.column-sticker h2 {
+  color: #ffffff;
+  font-family: Dosis;
+  font-size: 32px;
+  font-weight: 700;
+}
+.column-sticker_right {
+  margin-right: 40px;
+}
+.column-sticker__image_two-hearts {
+  background-position: -268px 0;
+  width: 112px;
+}
+.column-sticker__image_one-site {
+  background-position: -542px 0;
+  width: 114px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
