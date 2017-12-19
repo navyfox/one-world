@@ -1,0 +1,26 @@
+.social-list {
+  position: fixed;
+  top: 37%;
+  float: right;
+  width: 50px;
+  height: 195px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 0 3px 3px 0;
+  background-color: #3d1343;
+}
+.social-item {
+  background-image: url(./images/social.png);
+  width: 25px;
+  height: 25px;
+  margin: 20px 13px;
+}
+.social-item_share {}
+.social-item_facebook {
+  background-position: 0px 117px;
+}
+.social-item_instagram {
+  background-position: 0px 69px;
+}
+.social-item_twitter {
+  background-position: 0px 25px;
+}

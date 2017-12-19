@@ -1,5 +1,5 @@
 /* normalize */
-@import "partials/layout/normalize";
+@import "partials/includes/normalize/normalize";
 
 /* Layout */
 @import "partials/layout/base";
@@ -9,5 +9,6 @@
 
 /* Partials */
 @import "./partials/includes/header/header";
+@import "./partials/includes/social/social";
 @import "./partials/includes/footer/footer";
 @import "./partials/includes/join/join";

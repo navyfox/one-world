@@ -78,14 +78,13 @@ $purple-color: #81398b;
   align-items: center;
   width: 230px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-  background-color: #fe4a5d;
 }
 .column-sticker__image {
   background: url(./images/column-stikers.png) no-repeat;
   width: 100px;
   height: 100px;
   background-position: 0px 0;
-  margin: 65px 0px 65px 0px;
+  margin: 62px 0px;
 }
 .column-sticker h2 {
   color: #ffffff;
@@ -93,26 +92,43 @@ $purple-color: #81398b;
   font-size: 32px;
   font-weight: 700;
 }
-.column-sticker_right {
+.column-sticker__h {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.column-sticker_item_1 {
+  background-color: #fe4a5d;
+}
+.column-sticker_item_2 {
+  background-color: #de1d24;
+}
+.column-sticker_item_3 {
+  background-color: #ff6000;
+}
+.column-sticker__h_item_1 {
+  background-color: #e4394a;
+}
+.column-sticker__h_item_2 {
+  background-color: #c71a20;
+}
+.column-sticker__h_item_3 {
+  background-color: #e55600;
+}
+.column-sticker_item_1 {
   margin-right: 40px;
 }
-.column-sticker__image_two-hearts {
+.column-sticker_item_2 {
+  margin-right: 40px;
+}
+.column-sticker__image_2 {
   background-position: -268px 0;
   width: 112px;
 }
-.column-sticker__image_one-site {
+.column-sticker__image_3 {
   background-position: -542px 0;
   width: 114px;
-}
-.social-list {
-  position: fixed;
-  top: 37%;
-  float: right;
-  width: 50px;
-  height: 195px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  border-radius: 0 3px 3px 0;
-  background-color: #45124c;
 }
 
 
