@@ -50,6 +50,18 @@ $purple-color: #81398b;
   border-radius: 40px;
   border: 1px solid $purple-color;
   padding: 11px 12px;
+  user-select: none;
+}
+.get-start__link:hover {
+  .get-start__conteiner {
+    background-color: #7e218b;
+  }
+}
+.get-start__link:active {
+  background-color: #7e218b;
+  .get-start__conteiner {
+    background-color: #6c0c79;
+  }
 }
 .get-start__conteiner {
   display: flex;
