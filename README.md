@@ -1,4 +1,4 @@
-# palo-alto
+# one-world
 
 An example of a simple front-end web application.
 Technology stack: HTML5, CSS3, Handlebars, SCSS, Gulp.
