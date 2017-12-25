@@ -38,10 +38,11 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  /* Text style for "S, ign up" */
+
   letter-spacing: 0.8px;
   padding: 10px 52px;
   user-select: none;
+  cursor: pointer;
 }
 .registration-facebook a:hover {
   background-color: #2e3ea3;
@@ -116,6 +117,7 @@
   letter-spacing: 0.69px;
   border: 0;
   outline:none;
+  cursor: pointer;
 }
 .form-sumbit__button:hover {
   background-color: rgb(123, 32, 139);

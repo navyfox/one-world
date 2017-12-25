@@ -12,6 +12,7 @@ $black-purple-color: #2f1946;
   overflow: hidden;
   li {
     float: left;
+    cursor: pointer;
   }
   li a {
     display: block;
@@ -44,6 +45,7 @@ $black-purple-color: #2f1946;
   width: 16px;
   height: 11px;
   background-image: url(./images/27-country.png);
+  cursor: pointer;
 }
 .copyright {
   margin: auto;
